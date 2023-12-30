@@ -14,6 +14,7 @@ private:
 
 /// Constructor
 public:
+
 	Sale();
 	Sale(int, int, string, string);
 

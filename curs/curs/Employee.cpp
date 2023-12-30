@@ -9,9 +9,9 @@ Employee::Employee() : Employee::Employee(0, "", "", "", "")
 {
 }
 
-Employee::Employee(int ID_employee, string First_name, string Last_name, string Post, string Phone_number)
+Employee::Employee(int id, string First_name, string Last_name, string Post, string Phone_number)
 {
-	this->ID_employee = ID_employee;
+	this->ID_employee = id;
 	this->First_name = First_name;
 	this->Last_name = Last_name;
 	this->Post = Post;
@@ -23,10 +23,11 @@ Employee::Employee(int ID_employee, string First_name, string Last_name, string 
 /// 
 /// set/get functions
 ///
-void Employee::set_ID_employee(int temp)
+void Employee::set_ID_employee(int id)
 {
-	this->ID_employee = temp;
+	this->ID_employee = id;
 }
+
 
 void Employee::set_First_name(string temp)
 {

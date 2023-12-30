@@ -9,9 +9,9 @@ Product::Product():Product::Product(0, "", 0)
 {
 }
 
-Product::Product(int ID_product, string Name, double Price)
+Product::Product(int id, string Name, double Price)
 {
-	this->ID_product = ID_product;
+	this->ID_product = id;
 	this->Name = Name;
 	this->Price = Price;
 }
@@ -21,9 +21,9 @@ Product::Product(int ID_product, string Name, double Price)
 /// 
 /// set/get functions
 ///
-void Product::set_ID_product(int temp)
+void Product::set_ID_product(int id)
 {
-	this->ID_product = temp;
+	this->ID_product = id;
 }
 
 void Product::set_Name(string temp)
@@ -35,6 +35,8 @@ void Product::set_Price(double temp)
 {
 	this->Price = temp;
 }
+
+
 
 
 int Product::get_ID_product()

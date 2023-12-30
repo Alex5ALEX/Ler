@@ -129,18 +129,34 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="curs.cpp" />
+    <ClCompile Include="Data.cpp" />
+    <ClCompile Include="Deleter.cpp" />
+    <ClCompile Include="Editer.cpp" />
     <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="Filler.cpp" />
+    <ClCompile Include="Finder.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Message.cpp" />
+    <ClCompile Include="Printer.cpp" />
     <ClCompile Include="Product.cpp" />
+    <ClCompile Include="Reporter.cpp" />
     <ClCompile Include="Sale.cpp" />
-    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Sorter.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="Deleter.h" />
+    <ClInclude Include="Editer.h" />
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="Filler.h" />
+    <ClInclude Include="Finder.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="Message.h" />
+    <ClInclude Include="Printer.h" />
     <ClInclude Include="Product.h" />
+    <ClInclude Include="Reporter.h" />
     <ClInclude Include="Sale.h" />
-    <ClInclude Include="Server.h" />
+    <ClInclude Include="Sorter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
